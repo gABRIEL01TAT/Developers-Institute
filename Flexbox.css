@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 400px;
+    border: 3px limegreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-between;
+}

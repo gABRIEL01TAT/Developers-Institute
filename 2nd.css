@@ -1,0 +1,74 @@
+body{
+    background-color: lightgreen;
+}
+#main{
+    display: grid;
+    background-color: white;
+    height: 90vh;
+    width: 90%;
+    grid-template-areas: 
+    "a  a  a  a"
+    "b  b  c  c"
+    "b  b  c  c"
+    "d  d  c  c"
+    "d  d  c  c"
+    "d  d  e  e"
+    "d  d  e  e"
+    "f  f  f  g"
+    "h  h  h  h"; 
+    gap:  2px;  
+}
+
+
+#Header{
+    grid-area: a;
+    background-color: red;
+    font-size: 100px;
+}
+
+#Hero{
+    grid-area: b;
+    background-color: plum;
+}
+
+#content{
+    grid-area: c;
+    background-color: orange;
+}
+
+#sidebar{
+    grid-area: d;
+    background-color: green;
+}
+
+#extra{
+    grid-area: e;
+    background-color: grey;
+}
+
+#Related{
+    grid-area: f;
+    background-color: limegreen;
+}
+
+#post{
+    grid-area: g;
+    background-color: pink;
+}
+
+#footer{
+    grid-area: h;
+    background-color: orange;
+}
+#Header,
+#Hero,
+#content,
+#sidebar,
+#extra,
+#Related,
+#post,
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

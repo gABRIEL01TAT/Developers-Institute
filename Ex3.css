@@ -1,0 +1,73 @@
+body{
+    background-color:aquamarine;
+    border: 90px, green;
+}
+
+#main{
+    display: grid;
+    background-color: white;
+    height: 95vh;
+    width: 95%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    grid-template-areas: 
+    "a  a  a"
+    "b  c  d"
+    "b  e  e"
+    "f  f  g"
+    "h  h  h"; 
+    gap:  4px;  
+}
+
+#Number1{
+    grid-area: a;
+    background-color: purple;
+}
+
+#Number2{
+    grid-area: b;
+    background-color: blue;
+}
+
+#Number3{
+    grid-area: c;
+    background-color: skyblue;
+}
+
+#Number4{
+    grid-area: d;
+    background-color: pink;
+}
+
+#Number5{
+    grid-area: e;
+    background-color: purple;
+}
+
+#Number6{
+    grid-area: f;
+    background-color: blue;
+}
+
+#Number7{
+    grid-area: g;
+    background-color: pink;
+}
+
+#Number8{
+    grid-area: h;
+    background-color: orange;
+}
+#Number1
+#Number2
+#Number3
+#Number4
+#Number5
+#Number6
+#Number7
+#Number8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

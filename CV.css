@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(161, 151, 151);
+}
+
+#div1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 220%;
+}
+
+#div2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 280%;
+}
+
+#div3{
+    font-size: 60%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left-side { 
+    height: 99%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.right-side { 
+    flex-grow: 100; 
+} 
+.left-side, .right-side { 
+    padding-bottom: 120px; 
+}
+.vl{
+    border-left: 3px solid rgb(128, 131, 128);
+    height: 400px;
+    position: fixed;
+    left: 37%;
+    margin-left: -3px;
+    bottom: -1;
+}
