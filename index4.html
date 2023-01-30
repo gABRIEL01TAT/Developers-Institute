@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning DOM</title>
+    </head>
+    <body>
+        <form id="form1" onsubmit="getvalue()"> 
+            <label>First name: </label><input type="text" name="fname" value="David"><br> 
+            <label>Last name: </label><input type="text" name="lname" value="BenGurion"><br> 
+            <input type="submit" value="Submit"> 
+        </form> 
+        <select id="select1"> 
+            <option value="apple">Middle School</option>
+            <option value="pear">University</option>
+            <option value="banana">College</option>
+        </select>
+<script type="text/javascript">
+    let select = document.getElementById('select1')
+    console.log(select);
+    let second = document.getElementById('select1');
+    
+
+
+    // let form = document.forms.form1; 
+    // console.log(form)
+    // let firstName = form.elements.fname; 
+    // let lastName = form.elements.lname;
+    // console.log(firstName.value); // 1
+    // console.log(lastName.value);
+</script>
+
+    </body>
+</html>

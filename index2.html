@@ -1,0 +1,47 @@
+<div id="container">Users:</div>
+<ul class="list">
+    <li>John</li>
+    <li>Pete</li>
+</ul>
+<ul class=" my list">
+    <li>David</li>
+    <li>Sarah</li>
+    <li>Dan</li>
+</ul>
+<script type="text/javascript">
+// Retrieve the div and console.log it
+    let Users = document.getElementsByTagName('div')[0];
+    console.log(Users);
+    let ul = Users.nextElementSibling
+    console.log(ul);
+    let ul_o = document.getElementsByTagName('ul')[1]
+    console.log(ul_o)
+
+// // Change each first name of the two <ul>'s to your name.
+    let oldNode = document.getElementsByTagName('li')[0]
+    let old_Node = document.getElementsByTagName('li')[2]
+    const otherNoter = document.createElement("otherNoter");
+    oldNode.innerHTML = "Gabriel"
+    old_Node.innerHTML= "Gabriel"
+    
+// Change the name “Pete” to “Richard”.
+    const list = document.querySelector("li");
+   let newNode = document.getElementsByTagName('li')[1]
+   let span = document.createElement("span");
+   newNode.innerHTML = "Richard"
+
+// //    Delete the <li> that contains the text node “Sarah”.
+   let new_Node = document.getElementsByTagName('li')[3]
+   new_Node.remove("Sarah");
+
+//    const element = document.querySelector('container.student_list');
+//     element.classList.add('bar');
+//     console.log(element.className);
+
+// // var new_row = document.createElement("ul");
+// //  new_row.setAttribute("class", "Student_list");
+
+
+
+
+// </script>

@@ -1,0 +1,44 @@
+<!-- <html>
+ <head>
+   <title> Javascript Dom </title>
+ </head>
+ <body>
+   <div id="parent" class="parent">
+    <div>first chid</div>
+    <div>second child</div>
+    <div>third child</div>
+    <div>fourth child</div>
+   </div>
+   <script type="text/javascript">
+    let parent = document.getElementById('parent');
+      // console.log(parent);
+      console.log(parent.firstElementChild)
+      console.log(parent.lastElementChild)
+   </script>
+ </body>
+</html> -->
+
+<html>
+<body>
+  <div>Users:</div>
+  <ul>
+    <li>John</li>
+    <li>Pete</li>
+  </ul>
+  <script type="text/javascript">
+    let Users = document.getElementsByTagName('div')[0]
+    console.log(Users);
+    let ul = Users.nextElementSibling
+    console.log(ul)
+    let Pete = ul.lastElementChild
+    console.log(Pete.textContent)
+    // let john = ul.firstElementChild
+    // console.log(john)
+    // let list = document.getElementsByTagName('li')[1]
+    // console.log(list)
+    // let ul = document.getElementById('elt')
+    // console.log(ul)
+
+  </script>
+</body>
+</html>
