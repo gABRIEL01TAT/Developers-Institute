@@ -1,50 +1,106 @@
-My_age = 30
-result = My_age + 123879
+store = {
+    'name': 'mango',
+    'number': 5,
+    'item': 'fruits'
+}
 
-print(result)
+am_store = {
+    'name': 'Apple',
+    'number': 9,
+    'item': 'vegetable'
+}
 
-first_name = "Ambi Gabriel"
-last_name = "Tata"
-print(first_name +" "+ last_name)
+#print(store.items())
 
-print("Hello Word\n " *4)
-
-result = (99^3) *8
-print(result)
-
-computer_brand = "lenovo"
-print("I have a"+" "+computer_brand+" "+"computer")
-
-__name__ = "Gabriel"
-Age = str('19')
-shoe_sieze = str('41')
-info = "MY name is "+" "+__name__ +" "+"I am"+" "+ Age +" "+"And my show sieze is "+" "+ shoe_sieze
-print(info)
-
-a = 9
-b = 6
-if a > b:
-    print("Hello World")
-else:
-    print("")
+for key, value in store.items():
+    print(key, '->', value)
 
 
-a = int(input("Enter a number  ")) 
-if a % 2==0:
-    print("The number is even")
-else:
-    print("The number is odd......!")
 
 
-c = input("Enter your name    ")
-if c=="Ambi gabriel":
-    print("Your ryt")
-else:
-    print("Get out of here you imposter stupid thieve")
 
-d = float(input("Enter your Height  "))
-Height = d * 2.54
-if Height==145:
-    print("congrats you are tall enough for a ride , Enjoy!!!!!")
-else:
-    print("Sorry you neeed to grow some more")
+
+
+
+
+
+shirts = [
+  {
+    'name': 'Awesome T-shirt 3000',
+    'size': 'S',
+    'price': 20
+  },
+  {
+    'name': 'Awesome T-shirt 3000',
+    'size': 'M',
+    'price': 25
+  },
+  {
+    'name': 'Awesome T-shirt 3000',
+    'size': 'L',
+    'price': 30
+  },
+]
+
+for y in shirts:
+    print(y["name"])
+
+
+
+
+
+
+
+sample_dict = {
+   "class":{
+      "student" : {
+         "name" : "Mike",
+         "marks" : {
+            "physics" : 70,
+            "history" : 80
+         }
+      }
+   }
+}
+
+#for a in sample_dict:
+
+print(sample_dict["class"]["student"]["marks"]["history"])
+
+
+
+
+
+
+sample_dicts = {
+  "name": "Kelly",
+  "age": 25,
+  "salary": 8000,
+  "city": "New york"
+}
+key_to_remove = ["name", "salary"]
+for key in key_to_remove:
+    del sample_dicts[key]
+print(sample_dicts)
+
+
+
+list1 = [1,2,3]
+list2 = ['a','b','c']
+list3 = [1.1, 2.2, 3.3, 4.4, 5.5]
+
+for item in zip(list1, list2, list3): # only go as far it is possible
+    print(item)
+
+(1, 'a', 1.1)
+(2, 'b', 2.2)
+(3, 'c', 3.3)
+
+
+
+
+
+
+
+
+

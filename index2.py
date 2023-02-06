@@ -14,3 +14,6 @@ else :
                 print("Winter")
             else:
                 print("Not A Month  !!")
+
+
+my_text = "Lorem ipsum dolor sit amet, cosectrtur adipiscing elitsed do eiusmod tempor incididunt ut labore et dlore magna aliqua ut "
